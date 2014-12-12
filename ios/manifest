@@ -3,7 +3,7 @@
 # during compilation, packaging, distribution, etc.
 #
 version: 0.3.0
-architectures: armeabi armeabi-v7a x86
+architectures: armv7 i386 x86_64 arm64
 description: Custom ipad popover 
 author: Blain Hamon 
 license: Apache Public License v2 
@@ -16,5 +16,5 @@ name: CustomPopover
 moduleid: ti.custompopover
 #guid: 80489d7a-74a1-45d4-b173-3bbec3e10330
 platform: iphone
-minsdk: 3.4.1
+minsdk: 3.4.1.GA
 #type: module
